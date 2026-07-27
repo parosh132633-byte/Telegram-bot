@@ -1,0 +1,16 @@
+{
+  "name": "ssc-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to control SSC Result web app",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "node-telegram-bot-api": "^0.65.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
